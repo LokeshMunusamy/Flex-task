@@ -1,0 +1,97 @@
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    /* margin: 5px auto; */
+    justify-content: center;
+
+}
+.card{
+    background-color: aliceblue;
+    width: 20%;
+    flex-direction: row;
+    box-shadow: 4px 4px 8px;
+    margin: 40px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.card-header img{
+    width: 100%;
+}
+.tag-purple{
+    padding: 5px 10px;
+    background-color: purple;
+    border-radius: 15px;
+}
+.tag-pink{
+    padding: 5px 10px;
+    background-color: pink;
+    border-radius: 15px;
+}
+.user img{
+    border-radius: 50%;
+    width: auto;
+    height: 50px;
+    display: flex;
+    gap: 20px;
+}
+.user{
+    display: flex;
+}
+.card-body{
+    padding: 15px;
+}
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin-left: 5%;
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+    /* margin-left: 20px; */
+
+}
+.user-info{
+  padding: 10px;
+}
+h5{
+    margin: 0;
+}
+.social-icons a{
+  color: black;
+  
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+button{
+    margin-top: 5px;
+}
+
+@media (max-width: 1024px){
+    .card{
+        width: 15%;  
+        background-color: blueviolet;
+    }
+    
+}
+@media (max-width: 768px){
+    .card{
+        width: 34%;  
+        background-color: rgb(226, 43, 113);
+        margin: 15px;
+    }
+    
+}
+@media (max-width: 425px){
+    .card{
+        width: 100%;  
+        background-color: rgb(192, 226, 43);
+        min-width: 205px;
+    }
+    
+}
